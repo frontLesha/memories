@@ -1,0 +1,54 @@
+.journal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.journal-form div {
+    width: 100%;
+}
+
+.journal-form button {
+    width: 10%;
+}
+
+.date,
+.tag {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title input {
+    font-weight: 600;
+    font-size: 32px;
+    min-width: 150px;
+    border-bottom: 1px solid #323223;
+}
+
+.tag input {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.invalid {
+    border: 1px solid red;
+    background: rgb(65, 5, 5);
+}
+
+input, textarea {
+    background: none;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    width: 100%;
+}
+
+.text textarea{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    resize: none;
+    border: 1px solid #323223;
+}
+
+
